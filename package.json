@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "js-coder": "^0.0.1"
+    "js-coder": "*"
   },
   "devDependencies": {},
   "scripts": {
