@@ -1,7 +1,11 @@
 
 var coder = require('js-coder');
-var ast = coder.createAST();
+var ast = new coder.AST();
 
-console.log(ast.content)
+var b = coder.createVariableDecl('b', null);
+ast.addChild(b);
+
 
 console.log(ast);
+console.log();
+console.log(JSON.stringify(ast, 2, 2));
